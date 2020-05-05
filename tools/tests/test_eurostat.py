@@ -1,5 +1,5 @@
 import unittest
-import scripts.eurostat as eurostat
+import tools.eurostat as eurostat
 
 class TestEurostat(unittest.TestCase):
 
