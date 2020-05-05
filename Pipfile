@@ -4,6 +4,9 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pytest = "*"
+pylint = "*"
+pytest-cov = "*"
 
 [packages]
 numpy = "*"
@@ -11,6 +14,7 @@ matplotlib = "*"
 pandas = "*"
 sklearn = "*"
 jupyter = "*"
+requests = "*"
 
 [requires]
 python_version = "3.8"
