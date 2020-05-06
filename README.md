@@ -2,11 +2,18 @@
 
 ### Data Sources
 
-Agricultural goods prices: https://ec.europa.eu/eurostat/data/database?p_p_id=NavTreeportletprod_WAR_NavTreeportletprod_INSTANCE_nPqeVbPXRmWQ&p_p_lifecycle=0&p_p_state=pop_up&p_p_mode=view&p_p_col_id=column-2&p_p_col_pos=1&p_p_col_count=2&_NavTreeportletprod_WAR_NavTreeportletprod_INSTANCE_nPqeVbPXRmWQ_nodeInfoService=true&nodeId=84303
+Organizations:
 
-http://ec.europa.eu/eurostat/wdds/rest/data/v2.1/json/en/aact_eaa01?itm_newa=01000&itm_newa=02400&itm_newa=02920&itm_newa=04100&itm_newa=05000&itm_newa=06100&itm_newa=06110&precision=1&indic_ag=PROD_BP&indic_ag=PROD_PP&geo=PL&unit=MIO_EUR
+* [Eurostat](https://ec.europa.eu/eurostat/data/database)
+* [IMGW](https://danepubliczne.imgw.pl)
 
-Dane metereologiczne: https://danepubliczne.imgw.pl
+Detailed resources:
+
+* **Eurostat** - [Selling prices of crop products (absolute prices) - annual price (from 2000 onwards)](https://ec.europa.eu/eurostat/data/database?p_p_id=NavTreeportletprod_WAR_NavTreeportletprod_INSTANCE_nPqeVbPXRmWQ&p_p_lifecycle=0&p_p_state=pop_up&p_p_mode=view&p_p_col_id=column-2&p_p_col_pos=1&p_p_col_count=2&_NavTreeportletprod_WAR_NavTreeportletprod_INSTANCE_nPqeVbPXRmWQ_nodeInfoService=true&nodeId=98243)
+
+* **IMGW** - [Monthly Precipitation reports in Poland](https://dane.imgw.pl/data/dane_pomiarowo_obserwacyjne/dane_meteorologiczne/miesieczne/opad/)- 
+
+* **IMGW** - [Monthly Tempretures reports in Poland](https://dane.imgw.pl/data/dane_pomiarowo_obserwacyjne/dane_meteorologiczne/miesieczne/klimat/)
 
 ### Dependencies and Libraries
 
