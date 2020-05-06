@@ -57,11 +57,14 @@ def unzip_gz_file(file_path: str) -> str:
         save_file(f.read(), unziped_file_path)
     return unziped_file_path
 
-def unzip_zip_file(file_path: str) -> str:
+def unzip_zip_file(file_path: str, file_inside = '') -> str:
     """Extract file from .zip file
 
     Arguments:
         file_path {str} -- path to .zip file
+
+    Keyword Arguments:
+        file_inside {str} -- file name inside .zip file to be extracted (default: {''})
 
     Returns:
         str -- path of unziped file
@@ -70,6 +73,10 @@ def unzip_zip_file(file_path: str) -> str:
     unzip_target_folder = file_path[:zip_folder_index]
     unzipped_file_path = ''
     with ZipFile(file_path) as zip:
-        unzipped_file_path = unzip_target_folder + '/' + zip.namelist()[0]
-        zip.extractall(path=unzip_target_folder)
+        if file_inside == '':
+            unzipped_file_path = unzip_target_folder + '/' + zip.namelist()[0]
+            zip.extractall(path=unzip_target_folder)
+        else:
+            unzipped_file_path = unzip_target_folder + '/' + file_inside
+            zip.extract(member=file_inside, path=unzip_target_folder)
     return unzipped_file_path
