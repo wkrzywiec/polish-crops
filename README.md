@@ -1,4 +1,8 @@
-# Fuit & Vegies Polish Market analysis
+# Polish Crops analysis
+
+This project is created for education purposes, to playaround with machine learning Python libraries.
+
+The goal of it is to find out if there is a correlation of price of a soft wheat depending on the weather (temperature, amount of precipitation) in Poland.
 
 ### Data Sources
 
@@ -11,9 +15,9 @@ Detailed resources:
 
 * **Eurostat** - [Selling prices of crop products (absolute prices) - annual price (from 2000 onwards)](https://ec.europa.eu/eurostat/data/database?p_p_id=NavTreeportletprod_WAR_NavTreeportletprod_INSTANCE_nPqeVbPXRmWQ&p_p_lifecycle=0&p_p_state=pop_up&p_p_mode=view&p_p_col_id=column-2&p_p_col_pos=1&p_p_col_count=2&_NavTreeportletprod_WAR_NavTreeportletprod_INSTANCE_nPqeVbPXRmWQ_nodeInfoService=true&nodeId=98243)
 
-* **IMGW** - [Monthly Precipitation reports in Poland](https://dane.imgw.pl/data/dane_pomiarowo_obserwacyjne/dane_meteorologiczne/miesieczne/opad/)- 
+* **IMGW** - [Monthly precipitation reports for Poland](https://dane.imgw.pl/data/dane_pomiarowo_obserwacyjne/dane_meteorologiczne/miesieczne/opad/)- 
 
-* **IMGW** - [Monthly Tempretures reports in Poland](https://dane.imgw.pl/data/dane_pomiarowo_obserwacyjne/dane_meteorologiczne/miesieczne/klimat/)
+* **IMGW** - [Monthly tempretures reports for Poland](https://dane.imgw.pl/data/dane_pomiarowo_obserwacyjne/dane_meteorologiczne/miesieczne/klimat/)
 
 ### Dependencies and Libraries
 
