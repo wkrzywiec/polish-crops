@@ -24,6 +24,11 @@ class TestImgw(unittest.TestCase):
         with self.assertRaises(SystemExit):
             imgw.download_precipitation_reports(years)
 
+    def test_download_precipitation_report_dic(self):
+        path = imgw.download_precipitation_report_dic()
+        open('data/raw/o_m_format.txt')
+        self.assertEqual(path, 'data/raw/o_m_format.txt')
+
     # temperature reports download
     def test_download_single_temperature_report(self):
         years = [2019]
@@ -44,6 +49,11 @@ class TestImgw(unittest.TestCase):
         years = [1900]
         with self.assertRaises(SystemExit):
             imgw.download_temperature_reports(years)
+
+    def test_download_temperature_report_dic(self):
+        path = imgw.download_temperature_report_dic()
+        open('data/raw/k_m_t_format.txt')
+        self.assertEqual(path, 'data/raw/k_m_t_format.txt')
 
 
 if __name__ == '__main__':

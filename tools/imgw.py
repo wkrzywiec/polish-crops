@@ -19,6 +19,14 @@ def download_precipitation_reports(years: list) -> dict:
     """
     return __download_report_from_imgw(__precipitation_report_type, years)
 
+def download_precipitation_report_dic() -> str:
+    """Download description of columns in precipitation report
+
+    Returns:
+        str -- path to saved dictionary
+    """
+    content = helper.download_file('https://dane.imgw.pl/data/dane_pomiarowo_obserwacyjne/dane_meteorologiczne/miesieczne/opad/o_m_format.txt')
+    return helper.save_file(content, __raw_data_directory + 'o_m_format.txt')
 
 def download_temperature_reports(years: list) -> dict:
     """Download temperature reports from IMGW database
@@ -30,6 +38,15 @@ def download_temperature_reports(years: list) -> dict:
         dict -- dictionary of saved reports, where key = year, value = path_to_report
     """
     return __download_report_from_imgw(__temperature_report_type, years)
+
+def download_temperature_report_dic() -> str:
+    """Download description of columns in temperature report
+
+    Returns:
+        str -- path to saved dictionary
+    """
+    content = helper.download_file('https://dane.imgw.pl/data/dane_pomiarowo_obserwacyjne/dane_meteorologiczne/miesieczne/klimat/k_m_t_format.txt')
+    return helper.save_file(content, __raw_data_directory + 'k_m_t_format.txt')
 
 def __download_report_from_imgw(report_type: str, years: list) -> dict:
     reports = {}
