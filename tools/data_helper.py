@@ -17,7 +17,7 @@ def download_file(url: str):
     """
     response = requests.get(url)
     if response.status_code != 200:
-        raise SystemExit('Unable to download data file. Reason: {} {}'.format(response.status_code, response.reason))
+        raise SystemExit('Unable to download data file from URL: {}. Reason: {} {}'.format(url, response.status_code, response.reason))
     return response.content
 
 def save_file(content, file_path: str) -> str:

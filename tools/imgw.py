@@ -3,9 +3,10 @@ import tools.data_helper as helper
 __base_url = 'https://dane.imgw.pl/data/dane_pomiarowo_obserwacyjne/dane_meteorologiczne/miesieczne/'
 __precipitation_report_type = 'opad'
 __precipitation_zip_name_pattern = '{}_m_o.zip'
+precipitation_report_name_pattern = 'o_m_{}.csv'
 __temperature_report_type = 'klimat'
 __temperature_zip_name_pattern = '{}_m_k.zip'
-__temperature_report_name_patter = 'k_m_t_{}.csv'
+temperature_report_name_patter = 'k_m_t_{}.csv'
 __raw_data_directory = 'data/raw/'
 
 def download_precipitation_reports(years: list) -> dict:

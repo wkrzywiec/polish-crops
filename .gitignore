@@ -2,3 +2,4 @@
 data/*
 !data/*.md
 .pytest_cache
+tools/__pycache__
