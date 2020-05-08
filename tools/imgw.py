@@ -73,7 +73,7 @@ def __extract_report_from_zip(zipped_file_path: str, report_type: str, year: int
     if report_type == __precipitation_report_type:
         return helper.unzip_zip_file(zipped_file_path)
     elif report_type == __temperature_report_type:
-        return helper.unzip_zip_file(zipped_file_path, __temperature_report_name_patter.format(str(year)))
+        return helper.unzip_zip_file(zipped_file_path, temperature_report_name_patter.format(str(year)))
     else:
         raise SystemExit("Can't extract report from zip. Reason: there is no report with a type: " + report_type)
 

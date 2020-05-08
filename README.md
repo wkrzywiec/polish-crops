@@ -1,5 +1,5 @@
 # Polish Crops analysis
-![Python Master Workflow](https://github.com/wkrzywiec/polish-crops/workflows/Python%20Master%20Workflow/badge.svg?branch=master) [![CodeFactor](https://www.codefactor.io/repository/github/wkrzywiec/polish-crops/badge)](https://www.codefactor.io/repository/github/wkrzywiec/polish-crops) [![codecov](https://codecov.io/gh/wkrzywiec/polish-crops/branch/master/graph/badge.svg)](https://codecov.io/gh/wkrzywiec/polish-crops) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Python Tool Scripts](https://github.com/wkrzywiec/polish-crops/workflows/Python%20Tool%20Scripts/badge.svg) [![CodeFactor](https://www.codefactor.io/repository/github/wkrzywiec/polish-crops/badge)](https://www.codefactor.io/repository/github/wkrzywiec/polish-crops) [![codecov](https://codecov.io/gh/wkrzywiec/polish-crops/branch/master/graph/badge.svg)](https://codecov.io/gh/wkrzywiec/polish-crops) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This project is created for education purposes, to playaround with machine learning Python libraries.
 
