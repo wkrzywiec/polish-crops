@@ -92,3 +92,5 @@ $ pipenv install pytest-cov --dev
 * [Linear regression using Python](https://towardsdatascience.com/linear-regression-using-python-b136c91bf0a2)
 
 * [Polynomial Regression](https://towardsdatascience.com/polynomial-regression-bbe8b9d97491)
+
+* [An Introduction to Support Vector Regression](https://towardsdatascience.com/an-introduction-to-support-vector-regression-svr-a3ebc1672c2)
