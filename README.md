@@ -5,6 +5,88 @@ This project is created for education purposes, to playaround with machine learn
 
 The goal of it is to find out if there is a correlation of price of a soft wheat depending on the weather (temperature, amount of precipitation) in Poland.
 
+### Usage
+
+Entire analysis is located inside the Jupyter Notebook file - `polish-crops.ipynb`. Here are the instructions how to run it:
+
+#### Run in local Jupyter Notebook
+
+Open terminal inside root folder and type:
+
+```console
+$ pipenv install --dev
+Creating a virtualenv for this project…
+Pipfile: .../polish-crops/Pipfile
+Using /usr/bin/python3.8 (3.8.2) to create virtualenv…
+⠧ Creating virtual environment...created virtual environment CPython3.8.2.final.0-64 in 426ms
+  creator CPython3Posix(dest=.../.local/share/virtualenvs/polish-crops-Wa9Yrv0T, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/wojtek/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+
+✔ Successfully created virtual environment! 
+Virtualenv location: .../.local/share/virtualenvs/polish-crops-Wa9Yrv0T
+Installing dependencies from Pipfile.lock (9425e4)…
+Ignoring colorama: markers 'sys_platform == "win32"' don't match your environment
+Ignoring pywin32: markers 'sys_platform == "win32"' don't match your environment
+Ignoring pywinpty: markers 'os_name == "nt"' don't match your environment
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 62/62 — 00:00:33
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+
+$ pipenv shell
+Launching subshell in virtual environment…
+
+$ (polish-crops--h8Ss-k_) λ pipenv run jupyter notebook
+[I 19:47:51.272 NotebookApp] The port 8888 is already in use, trying another port.
+[I 19:47:51.273 NotebookApp] The port 8889 is already in use, trying another port.
+[W 19:47:51.282 NotebookApp] Error loading server extension jupyter_nbextensions_configurator
+    Traceback (most recent call last):
+      File "c:\users\wojci\.virtualenvs\polish-crops--h8ss-k_\lib\site-packages\notebook\notebookapp.py", line 1670, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "c:\program files\python38\lib\importlib\__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyter_nbextensions_configurator'
+[I 19:47:51.284 NotebookApp] Serving notebooks from local directory: ...\polish-crops
+[I 19:47:51.285 NotebookApp] The Jupyter Notebook is running at:
+[I 19:47:51.285 NotebookApp] http://localhost:8890/?token=9df32feca9ee72d0ccaa9aa337542d33e4f57da42008b0b4
+[I 19:47:51.285 NotebookApp]  or http://127.0.0.1:8890/?token=9df32feca9ee72d0ccaa9aa337542d33e4f57da42008b0b4
+[I 19:47:51.285 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+```
+
+It will open a web browser with a notebook directory.
+
+#### Run in Visual Studio Code
+
+Open terminal inside root folder and type:
+
+```console
+$ pipenv install --dev
+Creating a virtualenv for this project…
+Pipfile: .../polish-crops/Pipfile
+Using /usr/bin/python3.8 (3.8.2) to create virtualenv…
+⠧ Creating virtual environment...created virtual environment CPython3.8.2.final.0-64 in 426ms
+  creator CPython3Posix(dest=.../.local/share/virtualenvs/polish-crops-Wa9Yrv0T, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/wojtek/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+
+✔ Successfully created virtual environment! 
+Virtualenv location: .../.local/share/virtualenvs/polish-crops-Wa9Yrv0T
+Installing dependencies from Pipfile.lock (9425e4)…
+Ignoring colorama: markers 'sys_platform == "win32"' don't match your environment
+Ignoring pywin32: markers 'sys_platform == "win32"' don't match your environment
+Ignoring pywinpty: markers 'os_name == "nt"' don't match your environment
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 62/62 — 00:00:33
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+```
+
+Open Visual Studio Code, make sure that you have installed **Python** extension from **Microsoft** and you're good to go :).
+
+#### Run in Google Colabs
+
 ### Data Sources
 
 Organizations:
