@@ -87,6 +87,10 @@ Open Visual Studio Code, make sure that you have installed **Python** extension 
 
 #### Run in Google Colabs
 
+Just open https://colab.research.google.com page, and enter there a URL to this repository: https://github.com/wkrzywiec/polish-crops.
+
+Once you open it in Google Colabs, run a cell from **Step 0 Only for Google Colab** - it downloads all necessary files.
+
 ### Data Sources
 
 Organizations:
