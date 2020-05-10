@@ -88,3 +88,7 @@ $ pipenv install pytest-cov --dev
 * [How to use Pipenv with Jupyter and VSCode](https://towardsdatascience.com/how-to-use-pipenv-with-jupyter-and-vscode-ae0e970df486)
 
 * [How to download files using Python](https://towardsdatascience.com/how-to-download-files-using-python-ffbca63beb5c)
+
+* [Linear regression using Python](https://towardsdatascience.com/linear-regression-using-python-b136c91bf0a2)
+
+* [Polynomial Regression](https://towardsdatascience.com/polynomial-regression-bbe8b9d97491)
